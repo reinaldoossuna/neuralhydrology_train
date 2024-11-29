@@ -11,11 +11,4 @@ dependencies = [
 ]
 
 [tool.uv.sources]
-neuralhydrology = { workspace = true }
-#neuralhydrology = { git = "https://github.com/reinaldoossuna/neuralhydrology" }
-
-
-[tool.uv.workspace]
-members = [
-  "packages/neuralhydrology"
-]
+neuralhydrology = { git = "https://github.com/reinaldoossuna/neuralhydrology" }
