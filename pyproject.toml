@@ -1,0 +1,21 @@
+[project]
+name = "nh"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "dvc>=3.42.0",
+    "neuralhydrology>=1.11.0",
+    "tensorboard>=2.14.0",
+]
+
+[tool.uv.sources]
+neuralhydrology = { workspace = true }
+#neuralhydrology = { git = "https://github.com/reinaldoossuna/neuralhydrology" }
+
+
+[tool.uv.workspace]
+members = [
+  "packages/neuralhydrology"
+]

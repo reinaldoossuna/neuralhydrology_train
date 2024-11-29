@@ -1,0 +1,3 @@
+[submodule "packages/neuralhydrology"]
+	path = packages/neuralhydrology
+	url = https://github.com/reinaldoossuna/neuralhydrology
